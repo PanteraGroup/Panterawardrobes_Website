@@ -1,0 +1,385 @@
+[build]
+  publish = "."
+
+# Redirect PHP URLs to HTML equivalents (in case any external links use .php)
+[[redirects]]
+  from = "/index.php"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/about.php"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/team.php"
+  to = "/team.html"
+  status = 301
+
+[[redirects]]
+  from = "/what-we-do.php"
+  to = "/what-we-do.html"
+  status = 301
+
+[[redirects]]
+  from = "/services.php"
+  to = "/services.html"
+  status = 301
+
+[[redirects]]
+  from = "/clients.php"
+  to = "/clients.html"
+  status = 301
+
+[[redirects]]
+  from = "/testimonials.php"
+  to = "/testimonials.html"
+  status = 301
+
+[[redirects]]
+  from = "/news.php"
+  to = "/news.html"
+  status = 301
+
+[[redirects]]
+  from = "/charity.php"
+  to = "/charity.html"
+  status = 301
+
+[[redirects]]
+  from = "/products.php"
+  to = "/products.html"
+  status = 301
+
+[[redirects]]
+  from = "/urbanmobili.php"
+  to = "/urbanmobili.html"
+  status = 301
+
+[[redirects]]
+  from = "/novamobili.php"
+  to = "/novamobili.html"
+  status = 301
+
+[[redirects]]
+  from = "/battistella.php"
+  to = "/battistella.html"
+  status = 301
+
+[[redirects]]
+  from = "/health-and-safety.php"
+  to = "/health-and-safety.html"
+  status = 301
+
+[[redirects]]
+  from = "/projects.php"
+  to = "/projects.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact.php"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/thankyou.php"
+  to = "/thankyou.html"
+  status = 301
+
+[[redirects]]
+  from = "/lawrie-park.php"
+  to = "/lawrie-park.html"
+  status = 301
+
+[[redirects]]
+  from = "/brandon-house.php"
+  to = "/brandon-house.html"
+  status = 301
+
+[[redirects]]
+  from = "/woodberry.php"
+  to = "/woodberry.html"
+  status = 301
+
+[[redirects]]
+  from = "/valentine.php"
+  to = "/valentine.html"
+  status = 301
+
+[[redirects]]
+  from = "/loampit-vale.php"
+  to = "/loampit-vale.html"
+  status = 301
+
+[[redirects]]
+  from = "/barn-hawe.php"
+  to = "/barn-hawe.html"
+  status = 301
+
+[[redirects]]
+  from = "/snowfields.php"
+  to = "/snowfields.html"
+  status = 301
+
+[[redirects]]
+  from = "/one-tower-bridge.php"
+  to = "/one-tower-bridge.html"
+  status = 301
+
+[[redirects]]
+  from = "/peckham.php"
+  to = "/peckham.html"
+  status = 301
+
+[[redirects]]
+  from = "/title-house.php"
+  to = "/title-house.html"
+  status = 301
+
+[[redirects]]
+  from = "/barnados.php"
+  to = "/barnados.html"
+  status = 301
+
+[[redirects]]
+  from = "/sevenoaks.php"
+  to = "/sevenoaks.html"
+  status = 301
+
+[[redirects]]
+  from = "/oxshot.php"
+  to = "/oxshot.html"
+  status = 301
+
+[[redirects]]
+  from = "/hurlingham-walk.php"
+  to = "/hurlingham-walk.html"
+  status = 301
+
+[[redirects]]
+  from = "/tileman-house.php"
+  to = "/tileman-house.html"
+  status = 301
+
+[[redirects]]
+  from = "/wimbledon.php"
+  to = "/wimbledon.html"
+  status = 301
+
+[[redirects]]
+  from = "/cobham.php"
+  to = "/cobham.html"
+  status = 301
+
+[[redirects]]
+  from = "/bloomsbury.php"
+  to = "/bloomsbury.html"
+  status = 301
+
+[[redirects]]
+  from = "/tadworth.php"
+  to = "/tadworth.html"
+  status = 301
+
+# Clean URL support — allow /about to serve /about.html
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/team"
+  to = "/team.html"
+  status = 200
+
+[[redirects]]
+  from = "/what-we-do"
+  to = "/what-we-do.html"
+  status = 200
+
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+
+[[redirects]]
+  from = "/clients"
+  to = "/clients.html"
+  status = 200
+
+[[redirects]]
+  from = "/testimonials"
+  to = "/testimonials.html"
+  status = 200
+
+[[redirects]]
+  from = "/news"
+  to = "/news.html"
+  status = 200
+
+[[redirects]]
+  from = "/charity"
+  to = "/charity.html"
+  status = 200
+
+[[redirects]]
+  from = "/products"
+  to = "/products.html"
+  status = 200
+
+[[redirects]]
+  from = "/urbanmobili"
+  to = "/urbanmobili.html"
+  status = 200
+
+[[redirects]]
+  from = "/novamobili"
+  to = "/novamobili.html"
+  status = 200
+
+[[redirects]]
+  from = "/battistella"
+  to = "/battistella.html"
+  status = 200
+
+[[redirects]]
+  from = "/health-and-safety"
+  to = "/health-and-safety.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects"
+  to = "/projects.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/lawrie-park"
+  to = "/lawrie-park.html"
+  status = 200
+
+[[redirects]]
+  from = "/brandon-house"
+  to = "/brandon-house.html"
+  status = 200
+
+[[redirects]]
+  from = "/woodberry"
+  to = "/woodberry.html"
+  status = 200
+
+[[redirects]]
+  from = "/valentine"
+  to = "/valentine.html"
+  status = 200
+
+[[redirects]]
+  from = "/loampit-vale"
+  to = "/loampit-vale.html"
+  status = 200
+
+[[redirects]]
+  from = "/barn-hawe"
+  to = "/barn-hawe.html"
+  status = 200
+
+[[redirects]]
+  from = "/snowfields"
+  to = "/snowfields.html"
+  status = 200
+
+[[redirects]]
+  from = "/one-tower-bridge"
+  to = "/one-tower-bridge.html"
+  status = 200
+
+[[redirects]]
+  from = "/peckham"
+  to = "/peckham.html"
+  status = 200
+
+[[redirects]]
+  from = "/title-house"
+  to = "/title-house.html"
+  status = 200
+
+[[redirects]]
+  from = "/barnados"
+  to = "/barnados.html"
+  status = 200
+
+[[redirects]]
+  from = "/sevenoaks"
+  to = "/sevenoaks.html"
+  status = 200
+
+[[redirects]]
+  from = "/oxshot"
+  to = "/oxshot.html"
+  status = 200
+
+[[redirects]]
+  from = "/hurlingham-walk"
+  to = "/hurlingham-walk.html"
+  status = 200
+
+[[redirects]]
+  from = "/tileman-house"
+  to = "/tileman-house.html"
+  status = 200
+
+[[redirects]]
+  from = "/wimbledon"
+  to = "/wimbledon.html"
+  status = 200
+
+[[redirects]]
+  from = "/cobham"
+  to = "/cobham.html"
+  status = 200
+
+[[redirects]]
+  from = "/bloomsbury"
+  to = "/bloomsbury.html"
+  status = 200
+
+[[redirects]]
+  from = "/tadworth"
+  to = "/tadworth.html"
+  status = 200
+
+# Remove phpinfo.php and other sensitive files
+[[redirects]]
+  from = "/phpinfo.php"
+  to = "/404"
+  status = 404
+
+[[redirects]]
+  from = "/register-login.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/register-login"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/vacancies.php"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/request-a-brochure.php"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/request-a-brochure"
+  to = "/contact.html"
+  status = 301
